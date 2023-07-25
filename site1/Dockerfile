@@ -1,2 +1,2 @@
-FROM nginx:latest
-COPY app01.html /usr/share/nginx/html/index.html
+FROM httpd:lastet
+COPY app01.html /usr/local/apache2/conf/httpd.conf
